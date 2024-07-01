@@ -27,7 +27,7 @@ Create a folder in your workspace and navigate to it:
 mkdir varCalculator
 ```
 ```
-cd varCalculator#
+cd varCalculator
 ```
 
 Copy it in your local machine. 
