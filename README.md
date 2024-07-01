@@ -32,7 +32,7 @@ cd varCalculator
 
 Copy it in your local machine. 
 ```
-git clone https://github.com/j-jinjia/var-calculator.git#
+git clone https://github.com/j-jinjia/var-calculator.git
 ```
 
 
@@ -80,7 +80,7 @@ For multiple trades:
 - The period and data values for the trades have to be provided with clean data(filtered, transformed, etc...).
 - The confidence level is provided as a parameter in the endpoint. 
 - The application can run locally but requires set up, since the application is not deployed to the cloud. 
-- 
+
 
 ##Improvements
 - The application could be deployed to the cloud with a cloud provider such as AWS, Google Cloud or Heroku. However for
@@ -88,7 +88,8 @@ the purposes of this exercise I have decided to not do so. The main reason being
 payment method in order to use the services.
 However, having the application in the cloud means that users would be able to use the application without the need of 
 setting up their machines and directly interact with the API by only providing the confidence level and CSV file.
-- 
+- Setting up a pipeline for CI/CD would also improve the developer experience as well as a more efficient feature shipping
+for end users. 
 ##Conclusion
 
 The application is able to calculate Value at Risk using historical method for single trades and multiple trades using 
